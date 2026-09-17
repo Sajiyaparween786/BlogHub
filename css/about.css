@@ -1,0 +1,323 @@
+.about-hero{
+
+padding:120px 10%;
+
+text-align:center;
+
+background:black;
+
+}
+
+.about-hero h1{
+
+font-size:60px;
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+.about-hero p{
+
+font-size:20px;
+
+color:white;
+
+max-width:700px;
+
+margin:auto;
+
+line-height:1.8;
+
+}
+
+.mission{
+
+padding:80px 10%;
+
+background:#0a0a0a;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.mission-card{
+
+max-width:700px;
+
+text-align:center;
+
+background:#111111;
+
+padding:40px;
+
+border-radius:20px;
+
+border:1px solid rgba(212,175,55,.3);
+
+}
+
+.mission-card i{
+
+font-size:50px;
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+.mission-card h2{
+
+color:#d4af37;
+
+margin-bottom:15px;
+
+}
+
+.mission-card p{
+
+color:white;
+
+line-height:1.8;
+
+}
+
+.why-bloghub{
+
+padding:80px 10%;
+
+background:black;
+
+text-align:center;
+
+}
+
+.why-bloghub h2{
+
+color:#d4af37;
+
+font-size:40px;
+
+margin-bottom:50px;
+
+}
+
+.why-container{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.why-card{
+
+background:#111111;
+
+padding:30px;
+
+border-radius:20px;
+
+border:1px solid rgba(212,175,55,.3);
+
+transition:.4s;
+
+}
+
+.why-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.why-card i{
+
+font-size:40px;
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+.why-card h3{
+
+color:#d4af37;
+
+margin-bottom:15px;
+
+}
+
+.why-card p{
+
+color:white;
+
+line-height:1.6;
+
+}
+
+.developer{
+
+padding:100px 10%;
+
+text-align:center;
+
+background:#0a0a0a;
+
+}
+
+.developer img{
+
+width:220px;
+
+height:220px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:5px solid #d4af37;
+
+margin-bottom:25px;
+
+}
+
+.developer h2{
+
+color:#d4af37;
+
+font-size:35px;
+
+margin-bottom:15px;
+
+}
+
+.developer p{
+
+color:white;
+
+font-size:18px;
+
+}
+
+footer{
+
+padding:40px;
+
+text-align:center;
+
+background:black;
+
+border-top:1px solid rgba(212,175,55,.2);
+
+}
+
+footer h2{
+
+color:#d4af37;
+
+margin-bottom:10px;
+
+}
+
+footer p{
+
+color:white;
+
+}
+
+@media(max-width:768px){
+
+.about-hero h1{
+
+font-size:40px;
+
+}
+
+.why-bloghub h2{
+
+font-size:30px;
+
+}
+
+.developer img{
+
+width:160px;
+
+height:160px;
+
+}
+
+}
+.youtube-section{
+
+padding:80px 10%;
+
+text-align:center;
+
+background:#111111;
+
+}
+
+.youtube-section h2{
+
+color:#d4af37;
+
+font-size:40px;
+
+margin-bottom:15px;
+
+}
+
+.youtube-section p{
+
+color:white;
+
+margin-bottom:25px;
+
+}
+
+.youtube-section input{
+
+width:400px;
+
+max-width:90%;
+
+padding:15px;
+
+border:1px solid #d4af37;
+
+border-radius:10px;
+
+background:black;
+
+color:white;
+
+margin-bottom:15px;
+
+}
+
+.youtube-section button{
+
+padding:15px 25px;
+
+background:#d4af37;
+
+color:black;
+
+border:none;
+
+border-radius:10px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}

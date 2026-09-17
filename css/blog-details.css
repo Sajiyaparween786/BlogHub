@@ -1,0 +1,210 @@
+.blog-details{
+
+padding:60px 8%;
+
+}
+
+.blog-main-image{
+
+width:100%;
+
+height:450px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+margin-bottom:20px;
+
+}
+
+.blog-heading{
+
+font-size:40px;
+
+color:#d4af37;
+
+margin-bottom:15px;
+
+}
+
+.blog-info{
+
+margin-bottom:20px;
+
+color:#cfcfcf;
+
+}
+
+.blog-content-full{
+
+line-height:2;
+
+font-size:18px;
+
+}
+
+.comment-section{
+
+padding:50px 8%;
+
+}
+
+.comment-section h2{
+
+color:#d4af37;
+
+margin-bottom:20px;
+
+}
+
+.comment-section input{
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:15px;
+
+background:#111;
+
+color:white;
+
+border:1px solid #333;
+
+border-radius:8px;
+
+}
+
+.comment-section button{
+
+background:#d4af37;
+
+color:black;
+
+border:none;
+
+padding:12px 20px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-weight:600;
+
+}
+
+.comment{
+
+background:#111;
+
+padding:15px;
+
+margin-top:15px;
+
+border-radius:8px;
+
+border-left:4px solid #d4af37;
+
+}
+
+.related-blogs{
+
+padding:60px 8%;
+
+}
+
+.related-blogs h2{
+
+color:#d4af37;
+
+margin-bottom:30px;
+
+}
+
+#relatedContainer{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+}
+
+.related-card{
+
+background:#111111;
+
+padding:20px;
+
+border-radius:15px;
+
+border:1px solid rgba(212,175,55,.3);
+
+}
+
+.related-card h3{
+
+margin-bottom:10px;
+
+}
+
+.related-card button{
+
+background:#d4af37;
+
+color:black;
+
+border:none;
+
+padding:10px 15px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+
+#relatedBlogs{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.related-card{
+background:#111;
+border:1px solid #d4af37;
+border-radius:12px;
+overflow:hidden;
+padding-bottom:15px;
+}
+
+.related-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.related-card h3{
+padding:15px;
+color:#d4af37;
+}
+
+.related-card p{
+padding:0 15px;
+color:white;
+}
+
+.related-card button{
+margin-left:15px;
+margin-top:10px;
+background:#d4af37;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+}

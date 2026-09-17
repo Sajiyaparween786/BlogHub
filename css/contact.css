@@ -1,0 +1,334 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:black;
+color:white;
+font-family:Arial,sans-serif;
+}
+
+/* HERO */
+
+.contact-hero{
+padding:120px 10%;
+text-align:center;
+background:black;
+}
+
+.contact-hero h1{
+font-size:60px;
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.contact-hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+line-height:1.8;
+}
+
+/* CONTACT CARDS */
+
+.contact-cards{
+padding:80px 10%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+background:#0a0a0a;
+}
+
+.contact-card{
+background:#111111;
+padding:40px;
+text-align:center;
+border-radius:20px;
+border:1px solid rgba(212,175,55,.3);
+transition:.4s;
+}
+
+.contact-card:hover{
+transform:translateY(-10px);
+}
+
+.contact-card i{
+font-size:45px;
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.contact-card h3{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+/* FORM */
+
+.contact-form-section{
+padding:80px 10%;
+background:black;
+display:flex;
+justify-content:center;
+}
+
+#contactForm{
+width:100%;
+max-width:700px;
+background:#111111;
+padding:40px;
+border-radius:20px;
+border:1px solid rgba(212,175,55,.3);
+}
+
+#contactForm h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:30px;
+}
+
+#contactForm input,
+#contactForm textarea{
+width:100%;
+padding:15px;
+margin-bottom:20px;
+background:#1a1a1a;
+border:1px solid #333;
+border-radius:10px;
+color:white;
+}
+
+#contactForm button{
+width:100%;
+padding:15px;
+background:#d4af37;
+color:black;
+border:none;
+border-radius:10px;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* WHY CONTACT */
+
+.why-contact{
+padding:80px 10%;
+background:#0a0a0a;
+text-align:center;
+}
+
+.why-contact h2{
+color:#d4af37;
+margin-bottom:50px;
+font-size:40px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.why-box{
+background:#111111;
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(212,175,55,.3);
+}
+
+.why-box i{
+font-size:40px;
+color:#d4af37;
+margin-bottom:15px;
+}
+
+.why-box h3{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+/* SERVICES */
+
+.services{
+padding:80px 10%;
+background:black;
+text-align:center;
+}
+
+.services h2{
+color:#d4af37;
+margin-bottom:50px;
+font-size:40px;
+}
+
+.service-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.service-card{
+background:#111111;
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(212,175,55,.3);
+}
+
+.service-card i{
+font-size:40px;
+color:#d4af37;
+margin-bottom:15px;
+}
+
+.service-card h3{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+/* FAQ */
+
+.faq{
+padding:80px 10%;
+background:#0a0a0a;
+}
+
+.faq h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:40px;
+font-size:40px;
+}
+
+.faq-box{
+background:#111111;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+border-left:4px solid #d4af37;
+}
+
+.faq-box h3{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+/* HOURS */
+
+.working-hours{
+padding:80px 10%;
+background:black;
+text-align:center;
+}
+
+.working-hours h2{
+color:#d4af37;
+margin-bottom:30px;
+font-size:40px;
+}
+
+.hours-card{
+max-width:600px;
+margin:auto;
+background:#111111;
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(212,175,55,.3);
+}
+
+.hours-card p{
+margin:10px 0;
+}
+
+/* SOCIAL */
+
+.social-section{
+padding:80px 10%;
+background:#0a0a0a;
+text-align:center;
+}
+
+.social-section h2{
+color:#d4af37;
+margin-bottom:30px;
+font-size:40px;
+}
+
+.social-icons a{
+color:#d4af37;
+font-size:35px;
+margin:0 15px;
+transition:.3s;
+}
+
+.social-icons a:hover{
+transform:scale(1.2);
+}
+
+/* CTA */
+
+.cta{
+padding:100px 10%;
+text-align:center;
+background:black;
+}
+
+.cta h2{
+font-size:45px;
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.cta p{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.cta a{
+display:inline-block;
+padding:15px 30px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+padding:40px;
+text-align:center;
+background:#0a0a0a;
+border-top:1px solid rgba(212,175,55,.2);
+}
+
+footer h2{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.contact-hero h1{
+font-size:40px;
+}
+
+.services h2,
+.faq h2,
+.why-contact h2,
+.social-section h2,
+.working-hours h2{
+font-size:30px;
+}
+
+.cta h2{
+font-size:32px;
+}
+
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogHub | Write • Learn • Inspire</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- Home CSS -->
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-book-open"></i>
+            <span>BlogHub</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/create-blog.html">Create Blog</a></li>
+            <li><a href="./pages/bookmarks.html">Bookmarks</a></li>
+            <li><a href="./pages/profile.html">Profile</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+
+            <button id="light-btn">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+
+            <button id="dark-btn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="./pages/login.html" class="login-btn">
+                Login
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                Write, Learn & Inspire
+                Through Blogging
+            </h1>
+
+            <p>
+                Share your ideas, experiences and
+                knowledge with the world.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="./pages/create-blog.html">
+                    Create Blog
+                </a>
+
+                <a href="#blogs">
+                    Explore Blogs
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+            alt="Coding">
+
+        </div>
+
+    </section>
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2>1000+</h2>
+            <p>Total Blogs</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>500+</h2>
+            <p>Active Writers</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>10K+</h2>
+            <p>Total Readers</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>50+</h2>
+            <p>Categories</p>
+        </div>
+
+    </section>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="search-section">
+
+        <input
+        type="text"
+        id="searchInput"
+        placeholder="Search blogs...">
+
+    </section>
+
+    
+<section class="categories">
+
+<button class="category-btn" data-category="All">
+All
+</button>
+
+<button class="category-btn" data-category="Technology">
+Technology
+</button>
+
+<button class="category-btn" data-category="Programming">
+Programming
+</button>
+
+<button class="category-btn" data-category="Education">
+Education
+</button>
+
+<button class="category-btn" data-category="Travel">
+Travel
+</button>
+
+<button class="category-btn" data-category="Food">
+Food
+</button>
+
+<button class="category-btn" data-category="Sports">
+Sports
+</button>
+
+<button class="category-btn" data-category="Business">
+Business
+</button>
+
+</section>
+
+    <!-- ================= BLOGS ================= -->
+
+    <section class="blogs" id="blogs">
+
+        <h2>Latest Blogs</h2>
+
+        <div id="blogContainer">
+
+            <!-- JS Blogs Here -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+
+    <footer>
+
+        <h2>BlogHub</h2>
+
+        <p>
+            Write • Learn • Inspire
+        </p>
+
+    </footer>
+
+    <!-- ================= AI BUTTON ================= -->
+
+    <!-- AI BUTTON -->
+
+<div class="ai-btn" id="openAI">
+
+    <i class="fa-solid fa-robot"></i>
+
+</div>
+
+<!-- AI CHATBOX -->
+
+<div class="ai-chatbox" id="aiChat">
+
+    <div class="ai-header">
+
+        <h3>BlogHub AI</h3>
+        <p>Online</p>
+
+        <span id="closeAI">
+            ✖
+        </span>
+
+    </div>
+
+    <div class="ai-body" id="chatBody">
+
+        <div class="bot-message">
+            <strong>Welcome to BlogHub AI</strong><br>
+            I can help you with:
+            <br>• Blogging Tips
+            <br>• HTML & CSS
+            <br>• JavaScript
+            <br>• Study Tips
+
+        </div>
+
+    </div>
+
+    <div class="ai-footer">
+
+        <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something...">
+
+        <button id="sendBtn">
+
+            Send
+
+        </button>
+
+    </div>
+
+</div>
+
+    <!-- JS Files -->
+<script src="./js/ai-chat.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/theme.js"></script>
+
+</body>
+</html>

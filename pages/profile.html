@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Profile | BlogHub</title>
+
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/profile.css">
+<link rel="stylesheet" href="../css/home.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-book-open"></i>
+
+<span>BlogHub</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="../index.html">Home</a></li>
+
+<li><a href="../pages/create-blog.html">Create Blog</a></li>
+<li><a href="../pages/bookmarks.html">Bookmarks</a></li>
+<li><a href="../pages/profile.html">Profile</a></li>
+<li><a href="../pages/about.html">About</a></li>
+
+
+</ul>
+<div class="nav-actions">
+
+<button id="light-btn">
+<i class="fa-solid fa-sun"></i>
+</button>
+
+<button id="dark-btn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+<a href="../pages/login.html" class="login-btn">
+Login
+</a>
+
+</div>
+
+</nav>
+
+
+<!-- PROFILE SECTION -->
+
+<section class="profile-section">
+
+<div class="profile-card">
+
+<div class="profile-image">
+
+<img
+src="https://tse2.mm.bing.net/th/id/OIP.Crn18DBv0uDqH1rmiFA01wHaLH?r=0&w=1280&h=1920&rs=1&pid=ImgDetMain&o=7&rm=3"
+alt="profile">
+
+</div>
+
+<h2 id="userName">
+
+Sajiya Parween
+
+</h2>
+
+<p id="userEmail">
+
+sajiya@email.com
+
+</p>
+
+<div class="profile-stats">
+
+<div class="stat-box">
+
+<h3 id="blogCount">
+
+14
+
+</h3>
+
+<p>Blogs</p>
+
+</div>
+
+<div class="stat-box">
+
+<h3 id="bookmarkCount">
+
+0
+
+</h3>
+
+<p>Bookmarks</p>
+
+</div>
+
+</div>
+
+<div class="about-box">
+
+<h3>
+
+About Me
+
+</h3>
+
+<p>
+
+Passionate learner and aspiring web developer.
+I love creating beautiful websites and sharing
+knowledge through blogging.
+
+</p>
+
+</div>
+
+<div class="social-icons">
+
+<a href="#">
+
+<i class="fa-brands fa-linkedin"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-brands fa-github"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-brands fa-instagram"></i>
+
+</a>
+
+</div>
+
+<div class="profile-buttons">
+
+<button id="editBtn">
+
+<i class="fa-solid fa-user-pen"></i>
+
+Edit Profile
+
+</button>
+
+<button id="logoutBtn">
+
+<i class="fa-solid fa-right-from-bracket"></i>
+
+Logout
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+<!-- AI BUTTON -->
+
+<div class="ai-btn" id="openAI">
+    <i class="fa-solid fa-robot"></i>
+</div>
+
+<!-- AI CHATBOX -->
+
+<div class="ai-chatbox" id="aiChat">
+
+    <div class="ai-header">
+
+        <h3>BlogHub AI</h3>
+
+        <span id="closeAI">✖</span>
+
+    </div>
+
+    <div class="ai-body" id="chatBody">
+
+        <div class="bot-message">
+
+            Welcome to BlogHub AI
+
+        </div>
+
+    </div>
+
+    <div class="ai-footer">
+
+        <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something...">
+
+        <button id="sendBtn">
+
+            Send
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="../js/ai-chat.js"></script>
+
+<script src="../js/profile.js"></script>
+<script src="../js/theme.js"></script>
+
+</body>
+</html>

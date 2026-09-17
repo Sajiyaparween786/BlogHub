@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Create Blog | BlogHub</title>
+
+<link rel="stylesheet"
+href="../css/common.css">
+
+<link rel="stylesheet"
+href="../css/create-blog.css">
+
+<link rel="stylesheet" href="../css/home.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-book-open"></i>
+
+<span>BlogHub</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="../index.html">Home</a></li>
+
+<li><a href="../pages/create-blog.html">Create Blog</a></li>
+
+<li><a href="../pages/profile.html">Profile</a></li>
+<li><a href="../pages/bookmarks.html">Bookmarks</a></li>
+<li><a href="../pages/about.html">About</a></li>
+
+</ul>
+
+</nav>
+
+<section class="create-blog">
+
+<h1>Create New Blog</h1>
+
+<form id="blogForm">
+
+<input
+type="text"
+id="title"
+placeholder="Blog Title"
+required>
+
+<select id="category">
+
+<option>
+Technology
+</option>
+
+<option>
+Programming
+</option>
+
+<option>
+Education
+</option>
+
+<option>
+Travel
+</option>
+
+<option>
+Food
+</option>
+
+<option>
+Sports
+</option>
+
+<option>
+Business
+</option>
+
+</select>
+
+<input
+type="text"
+id="image"
+placeholder="Image URL"
+required>
+
+<input
+type="text"
+id="author"
+placeholder="Author Name"
+required>
+
+<textarea
+id="content"
+placeholder="Write your blog..."
+required>
+</textarea>
+
+<button type="submit">
+
+Publish Blog
+
+</button>
+
+</form>
+
+</section>
+<!-- AI BUTTON -->
+
+<div class="ai-btn" id="openAI">
+    <i class="fa-solid fa-robot"></i>
+</div>
+
+<!-- AI CHATBOX -->
+
+<div class="ai-chatbox" id="aiChat">
+
+    <div class="ai-header">
+
+        <h3>BlogHub AI</h3>
+
+        <span id="closeAI">✖</span>
+
+    </div>
+
+    <div class="ai-body" id="chatBody">
+
+        <div class="bot-message">
+
+            Welcome to BlogHub AI
+
+        </div>
+
+    </div>
+
+    <div class="ai-footer">
+
+        <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something...">
+
+        <button id="sendBtn">
+
+            Send
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="../js/ai-chat.js"></script>
+
+<script src="../js/blogs.js"></script>
+
+</body>
+</html>
